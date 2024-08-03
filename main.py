@@ -30,7 +30,7 @@ while True:
             cv2.rectangle(region_color, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 5)
 
         for ex, ey, ew, eh in eye_glasses:
-            cv2.rectangle(region_color, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 5)
+            cv2.rectangle(region_color, (ex, ey), (ex + ew, ey + eh), (0, 0, 255), 5)
 
     cv2.imshow("Window", frame)
 
